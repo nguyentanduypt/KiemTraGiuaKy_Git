@@ -143,3 +143,13 @@ p a:hover {
   top: 76px;
   left: 19px;
 }
+
+/* content */
+#content{width:685px; position:relative; background:#FFF}
+#leftPan{width:179px; float:left; margin:26px 39px 0 19px; display:inline}
+
+#welcome h2{height:40px; position:relative; background:url(../images/h_welcome.gif) 0 0 no-repeat; margin-bottom:8px}
+#welcome img{margin:0 0 16px 4px }
+#welcome p{margin-left:4px; margin-right:12px}
+#welcome p.headline{margin-bottom:15px}
+.headline{font:10px/14px Tahoma, Geneva, sans-serif; color:#868e36; font-weight:bold}
