@@ -145,18 +145,101 @@ p a:hover {
 }
 
 /* content */
-#content{width:685px; position:relative; background:#FFF}
-#leftPan{width:179px; float:left; margin:26px 39px 0 19px; display:inline}
+#content {
+  width: 685px;
+  position: relative;
+  background: #fff;
+}
+#leftPan {
+  width: 179px;
+  float: left;
+  margin: 26px 39px 0 19px;
+  display: inline;
+}
 
-#welcome h2{height:40px; position:relative; background:url(../images/h_welcome.gif) 0 0 no-repeat; margin-bottom:8px}
-#welcome img{margin:0 0 16px 4px }
-#welcome p{margin-left:4px; margin-right:12px}
-#welcome p.headline{margin-bottom:15px}
-.headline{font:10px/14px Tahoma, Geneva, sans-serif; color:#868e36; font-weight:bold}
+#welcome h2 {
+  height: 40px;
+  position: relative;
+  background: url(../images/h_welcome.gif) 0 0 no-repeat;
+  margin-bottom: 8px;
+}
+#welcome img {
+  margin: 0 0 16px 4px;
+}
+#welcome p {
+  margin-left: 4px;
+  margin-right: 12px;
+}
+#welcome p.headline {
+  margin-bottom: 15px;
+}
+.headline {
+  font:
+    10px/14px Tahoma,
+    Geneva,
+    sans-serif;
+  color: #868e36;
+  font-weight: bold;
+}
 
-#rightPan{width:436px; float:left; margin:17px 0 0 0;}
-#featured h2{height:38px; position:relative; background:url(../images/h_prod.gif) 0 0 no-repeat; margin-bottom:6px}
-#featured p.headline{margin-bottom:5px}
-.featItem{width:116px; float:left; margin-right:44px}
-.featItem#i03{margin-right:0}
-.featItem img{margin-bottom:15px}
+#rightPan {
+  width: 436px;
+  float: left;
+  margin: 17px 0 0 0;
+}
+#featured h2 {
+  height: 38px;
+  position: relative;
+  background: url(../images/h_prod.gif) 0 0 no-repeat;
+  margin-bottom: 6px;
+}
+#featured p.headline {
+  margin-bottom: 5px;
+}
+.featItem {
+  width: 116px;
+  float: left;
+  margin-right: 44px;
+}
+.featItem#i03 {
+  margin-right: 0;
+}
+.featItem img {
+  margin-bottom: 15px;
+}
+
+.clear#end {
+  height: 20px;
+}
+
+/* footer */
+
+#footer {
+  height: 49px;
+  clear: both;
+  width: 775px;
+  background: #e8f09c;
+  margin: 0 auto;
+}
+#footer p {
+  padding: 10px 0 0 0;
+  font:
+    10px/16px Tahoma,
+    sans-serif;
+  font-weight: normal;
+  text-align: center;
+  color: #000;
+}
+#footer p a {
+  font:
+    10px/16px Tahoma,
+    sans-serif;
+  font-weight: normal;
+  color: #000;
+  text-decoration: none;
+  padding: 0 3px;
+}
+#footer p a:hover {
+  text-decoration: underline;
+  color: #000;
+}
